@@ -35,5 +35,29 @@ namespace GestionArchivosCsharp
             MessageBox.Show(leer.ReadToEnd());
             leer.Close();
         }
+
+        private void btnAbrir_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                openFileDialog1.Title = "Busca tu archivo - DH";
+                openFileDialog1.ShowDialog();
+                string texto = openFileDialog1.FileName;
+                if (File.Exists(openFileDialog1.FileName))
+                {
+
+                    TextReader leer = new StreamReader(texto);
+                    rTxtContenido.Text = leer.ReadToEnd();
+                    leer.Close();
+                }
+                txtDireccion.Text = texto;
+            }
+            catch (Exception ed)
+            {
+
+                MessageBox.Show("Error al abrrir: " + ed);
+            }
+            
+        }
     }
 }
