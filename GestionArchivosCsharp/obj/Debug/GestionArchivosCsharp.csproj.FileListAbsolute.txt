@@ -1,0 +1,10 @@
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\bin\Debug\GestionArchivosCsharp.exe.config
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\bin\Debug\GestionArchivosCsharp.exe
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\bin\Debug\GestionArchivosCsharp.pdb
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.csproj.AssemblyReference.cache
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.Form1.resources
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.Properties.Resources.resources
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.csproj.GenerateResource.cache
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.csproj.CoreCompileInputs.cache
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.exe
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.pdb
