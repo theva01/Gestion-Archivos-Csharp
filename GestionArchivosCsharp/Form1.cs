@@ -59,5 +59,45 @@ namespace GestionArchivosCsharp
             }
             
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)//confirma encontrar un archivo donde guardar la informacion
+                {
+                    if (File.Exists(saveFileDialog1.FileName))
+                    {
+                        string txt = saveFileDialog1.FileName;
+
+                        StreamWriter textoGuardar = File.CreateText(txt);
+                        textoGuardar.WriteLine(rTxtContenido.Text);
+                        textoGuardar.Flush();//Libreara memoria
+                        textoGuardar.Close();
+                        txtDireccion.Text = txt;
+                    }
+                    else
+                    {
+                        string txt = saveFileDialog1.FileName;
+
+                        StreamWriter textoGuardar = File.CreateText(txt);
+                        textoGuardar.WriteLine(rTxtContenido.Text);
+                        textoGuardar.Flush();//Libreara memoria
+                        textoGuardar.Close();
+                        txtDireccion.Text = txt;
+                    }
+                }
+            }
+            catch (Exception err)
+            {
+
+                MessageBox.Show("Error al guardar: " + err);
+            }
+        }
+
+        private void btnConectar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

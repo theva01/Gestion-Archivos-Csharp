@@ -36,6 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.rTxtContenido = new System.Windows.Forms.RichTextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.btnDesconectar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEscribir
@@ -76,6 +79,7 @@
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtDireccion
             // 
@@ -105,11 +109,32 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnConectar
+            // 
+            this.btnConectar.Location = new System.Drawing.Point(77, 364);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(95, 63);
+            this.btnConectar.TabIndex = 7;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
+            // btnDesconectar
+            // 
+            this.btnDesconectar.Location = new System.Drawing.Point(237, 364);
+            this.btnDesconectar.Name = "btnDesconectar";
+            this.btnDesconectar.Size = new System.Drawing.Size(104, 63);
+            this.btnDesconectar.TabIndex = 8;
+            this.btnDesconectar.Text = "Desconectar";
+            this.btnDesconectar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDesconectar);
+            this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.rTxtContenido);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtDireccion);
@@ -134,6 +159,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rTxtContenido;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.Button btnDesconectar;
     }
 }
 
