@@ -8,3 +8,4 @@ C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Deb
 C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.csproj.CoreCompileInputs.cache
 C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.exe
 C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.pdb
+C:\Users\eva_01\source\repos\GestionArchivosCsharp\GestionArchivosCsharp\obj\Debug\GestionArchivosCsharp.FormDBmanagement.resources

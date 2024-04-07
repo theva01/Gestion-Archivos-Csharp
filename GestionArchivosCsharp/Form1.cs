@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
 
 namespace GestionArchivosCsharp
 {
     public partial class Form1 : Form
     {
+        static string conexionString = "data source=holamundodev.eastus2.cloudapp.azure.com; initial catalog=AndersonDB; user id=andersonorozco; password=Holamundo123*";
+        public SqlConnection conexion = new SqlConnection(conexionString);
         public Form1()
         {
             InitializeComponent();
@@ -97,7 +100,20 @@ namespace GestionArchivosCsharp
 
         private void btnConectar_Click(object sender, EventArgs e)
         {
+            conexion.Open();
+            MessageBox.Show("La conexion a la DB " + conexion.Database + " ha sido establecida");
+        }
 
+        private void btnDesconectar_Click(object sender, EventArgs e)
+        {
+            conexion.Close();
+            MessageBox.Show("Se ha desconectado de la DB correctamente");
+        }
+
+        private void btnConsulta_Click(object sender, EventArgs e)
+        {
+            FormDBmanagement formDBmanagement = new FormDBmanagement();
+            formDBmanagement.ShowDialog();
         }
     }
 }
