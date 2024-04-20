@@ -136,7 +136,7 @@
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(104, 63);
             this.btnConsulta.TabIndex = 9;
-            this.btnConsulta.Text = "Consulta";
+            this.btnConsulta.Text = "Administrar";
             this.btnConsulta.UseVisualStyleBackColor = true;
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 

@@ -19,6 +19,7 @@ namespace GestionArchivosCsharp
         public FormDBmanagement()
         {
             InitializeComponent();
+            
         }
 
         private void btnConsulta_Click(object sender, EventArgs e)
@@ -27,12 +28,7 @@ namespace GestionArchivosCsharp
 
             if (string.IsNullOrEmpty(pais))
             {
-                string query = "Select * from Persona";
-                SqlCommand consulta = new SqlCommand(query, conexion);
-                SqlDataAdapter data = new SqlDataAdapter(consulta);
-                DataTable table = new DataTable();
-                data.Fill(table);
-                dataGridView1.DataSource = table;
+                consultar();
             }
             else
             {
@@ -52,6 +48,39 @@ namespace GestionArchivosCsharp
                 }
                 
             }
+        }
+
+        public void consultar()
+        {
+            string query = "Select * from Persona";
+            SqlCommand consulta = new SqlCommand(query, conexion);
+            SqlDataAdapter data = new SqlDataAdapter(consulta);
+            DataTable table = new DataTable();
+            data.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+            if (conexion.State == ConnectionState.Closed)
+            {
+                conexion.Open();
+            }
+            string cadenaQuery = "INSERT INTO Persona (Nombre, Edad, Pais, id)" +
+                $" VALUES ('{txtNombre.Text}', '{txtEdad.Text}', '{txtPais.Text}', '{txtId.Text}')";
+            SqlCommand sqlConector = new SqlCommand(cadenaQuery, conexion);
+            sqlConector.ExecuteNonQuery();//ejecuta el query
+
+            MessageBox.Show($"La persona: {txtNombre.Text} se agrego correctamente");
+
+            txtNombre.Text = "";
+            txtEdad.Text = "";
+            txtPais.Text = "";
+            txtId.Text = "";
+
+
+            consultar();
+
         }
     }
 }
