@@ -40,13 +40,16 @@
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
+            this.btnCnx = new System.Windows.Forms.Button();
+            this.btnClosePsql = new System.Windows.Forms.Button();
+            this.btnAdminPsql = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEscribir
             // 
-            this.btnEscribir.Location = new System.Drawing.Point(505, 227);
+            this.btnEscribir.Location = new System.Drawing.Point(394, 64);
             this.btnEscribir.Name = "btnEscribir";
-            this.btnEscribir.Size = new System.Drawing.Size(227, 108);
+            this.btnEscribir.Size = new System.Drawing.Size(133, 31);
             this.btnEscribir.TabIndex = 0;
             this.btnEscribir.Text = "Escribir";
             this.btnEscribir.UseVisualStyleBackColor = true;
@@ -54,9 +57,9 @@
             // 
             // btnLeer
             // 
-            this.btnLeer.Location = new System.Drawing.Point(505, 335);
+            this.btnLeer.Location = new System.Drawing.Point(543, 67);
             this.btnLeer.Name = "btnLeer";
-            this.btnLeer.Size = new System.Drawing.Size(227, 103);
+            this.btnLeer.Size = new System.Drawing.Size(129, 28);
             this.btnLeer.TabIndex = 1;
             this.btnLeer.Text = "Leer";
             this.btnLeer.UseVisualStyleBackColor = true;
@@ -64,9 +67,9 @@
             // 
             // btnAbrir
             // 
-            this.btnAbrir.Location = new System.Drawing.Point(505, 12);
+            this.btnAbrir.Location = new System.Drawing.Point(543, 28);
             this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(227, 108);
+            this.btnAbrir.Size = new System.Drawing.Size(129, 30);
             this.btnAbrir.TabIndex = 2;
             this.btnAbrir.Text = "Abrir";
             this.btnAbrir.UseVisualStyleBackColor = true;
@@ -74,9 +77,9 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(505, 113);
+            this.btnGuardar.Location = new System.Drawing.Point(392, 27);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(227, 108);
+            this.btnGuardar.Size = new System.Drawing.Size(135, 31);
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -112,7 +115,7 @@
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(77, 364);
+            this.btnConectar.Location = new System.Drawing.Point(31, 353);
             this.btnConectar.Name = "btnConectar";
             this.btnConectar.Size = new System.Drawing.Size(95, 63);
             this.btnConectar.TabIndex = 7;
@@ -122,7 +125,7 @@
             // 
             // btnDesconectar
             // 
-            this.btnDesconectar.Location = new System.Drawing.Point(373, 364);
+            this.btnDesconectar.Location = new System.Drawing.Point(155, 353);
             this.btnDesconectar.Name = "btnDesconectar";
             this.btnDesconectar.Size = new System.Drawing.Size(104, 63);
             this.btnDesconectar.TabIndex = 8;
@@ -132,7 +135,7 @@
             // 
             // btnConsulta
             // 
-            this.btnConsulta.Location = new System.Drawing.Point(222, 364);
+            this.btnConsulta.Location = new System.Drawing.Point(282, 353);
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(104, 63);
             this.btnConsulta.TabIndex = 9;
@@ -140,11 +143,44 @@
             this.btnConsulta.UseVisualStyleBackColor = true;
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
+            // btnCnx
+            // 
+            this.btnCnx.Location = new System.Drawing.Point(394, 272);
+            this.btnCnx.Name = "btnCnx";
+            this.btnCnx.Size = new System.Drawing.Size(95, 63);
+            this.btnCnx.TabIndex = 10;
+            this.btnCnx.Text = "Conectar SQL";
+            this.btnCnx.UseVisualStyleBackColor = true;
+            this.btnCnx.Click += new System.EventHandler(this.btnCnx_Click);
+            // 
+            // btnClosePsql
+            // 
+            this.btnClosePsql.Location = new System.Drawing.Point(508, 272);
+            this.btnClosePsql.Name = "btnClosePsql";
+            this.btnClosePsql.Size = new System.Drawing.Size(109, 63);
+            this.btnClosePsql.TabIndex = 11;
+            this.btnClosePsql.Text = "Desconectar SQL";
+            this.btnClosePsql.UseVisualStyleBackColor = true;
+            this.btnClosePsql.Click += new System.EventHandler(this.btnClosePsql_Click);
+            // 
+            // btnAdminPsql
+            // 
+            this.btnAdminPsql.Location = new System.Drawing.Point(396, 194);
+            this.btnAdminPsql.Name = "btnAdminPsql";
+            this.btnAdminPsql.Size = new System.Drawing.Size(221, 63);
+            this.btnAdminPsql.TabIndex = 12;
+            this.btnAdminPsql.Text = "Administrar PSQL";
+            this.btnAdminPsql.UseVisualStyleBackColor = true;
+            this.btnAdminPsql.Click += new System.EventHandler(this.btnAdminPsql_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(682, 450);
+            this.Controls.Add(this.btnAdminPsql);
+            this.Controls.Add(this.btnClosePsql);
+            this.Controls.Add(this.btnCnx);
             this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.btnConectar);
@@ -156,7 +192,7 @@
             this.Controls.Add(this.btnLeer);
             this.Controls.Add(this.btnEscribir);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Gestor de datos nivel basico";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,6 +212,9 @@
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button btnConsulta;
+        private System.Windows.Forms.Button btnCnx;
+        private System.Windows.Forms.Button btnClosePsql;
+        private System.Windows.Forms.Button btnAdminPsql;
     }
 }
 

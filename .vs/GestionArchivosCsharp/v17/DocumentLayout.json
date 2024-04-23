@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|c:\\users\\eva_01\\source\\repos\\gestionarchivoscsharp\\gestionarchivoscsharp\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\psqladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\psqladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\psqladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\psqladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|c:\\users\\eva_01\\source\\repos\\gestionarchivoscsharp\\gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3D52020E-5589-4D33-89B4-4994093070B6}|GestionArchivosCsharp\\GestionArchivosCsharp.csproj|solutionrelative:gestionarchivoscsharp\\formdbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,8 +38,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConexionSql.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\ConexionSql.cs",
+              "RelativeDocumentMoniker": "GestionArchivosCsharp\\ConexionSql.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\ConexionSql.cs",
+              "RelativeToolTip": "GestionArchivosCsharp\\ConexionSql.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwKAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T07:55:07.644Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -31,40 +61,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PsqlAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\PsqlAdmin.cs",
+              "RelativeDocumentMoniker": "GestionArchivosCsharp\\PsqlAdmin.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\PsqlAdmin.cs",
+              "RelativeToolTip": "GestionArchivosCsharp\\PsqlAdmin.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAIwMgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:17:46.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PsqlAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\PsqlAdmin.cs",
+              "RelativeDocumentMoniker": "GestionArchivosCsharp\\PsqlAdmin.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\PsqlAdmin.cs [Design]",
+              "RelativeToolTip": "GestionArchivosCsharp\\PsqlAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:12:26.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\Form1.cs",
+              "RelativeDocumentMoniker": "GestionArchivosCsharp\\Form1.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\Form1.cs [Design]",
+              "RelativeToolTip": "GestionArchivosCsharp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T08:05:54.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\Form1.cs",
               "RelativeDocumentMoniker": "GestionArchivosCsharp\\Form1.cs",
               "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\Form1.cs",
               "RelativeToolTip": "GestionArchivosCsharp\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAIwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T05:43:28.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T05:43:28.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FormDBmanagement.cs",
               "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\FormDBmanagement.cs",
               "RelativeDocumentMoniker": "GestionArchivosCsharp\\FormDBmanagement.cs",
               "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\FormDBmanagement.cs",
               "RelativeToolTip": "GestionArchivosCsharp\\FormDBmanagement.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAawHAAAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAACnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T02:29:26.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T02:29:26.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FormDBmanagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\FormDBmanagement.cs",
               "RelativeDocumentMoniker": "GestionArchivosCsharp\\FormDBmanagement.cs",
               "ToolTip": "C:\\Users\\eva_01\\source\\repos\\GestionArchivosCsharp\\GestionArchivosCsharp\\FormDBmanagement.cs [Design]",
               "RelativeToolTip": "GestionArchivosCsharp\\FormDBmanagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T02:16:13.906Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-07T02:16:13.906Z"
             }
           ]
         }

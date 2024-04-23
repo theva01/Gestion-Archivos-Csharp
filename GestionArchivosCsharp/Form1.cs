@@ -16,6 +16,7 @@ namespace GestionArchivosCsharp
     {
         static string conexionString = "data source=holamundodev.eastus2.cloudapp.azure.com; initial catalog=AndersonDB; user id=andersonorozco; password=Holamundo123*";
         public SqlConnection conexion = new SqlConnection(conexionString);
+        ConexionSql iCnx = new ConexionSql();
         public Form1()
         {
             InitializeComponent();
@@ -102,6 +103,7 @@ namespace GestionArchivosCsharp
         {
             conexion.Open();
             MessageBox.Show("La conexion a la DB " + conexion.Database + " ha sido establecida");
+            
         }
 
         private void btnDesconectar_Click(object sender, EventArgs e)
@@ -114,6 +116,31 @@ namespace GestionArchivosCsharp
         {
             FormDBmanagement formDBmanagement = new FormDBmanagement();
             formDBmanagement.ShowDialog();
+        }
+
+        private void btnCnx_Click(object sender, EventArgs e)
+        {
+            iCnx.conectar();
+        }
+
+        private void btnClosePsql_Click(object sender, EventArgs e)
+        {
+            iCnx.desconectar();
+        }
+
+        private void btnAdminPsql_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PsqlAdmin admin = new PsqlAdmin();
+                admin.ShowDialog();
+            }
+            catch (Exception ee)
+            {
+                iCnx.sms(ee.ToString());
+               
+            }
+            
         }
     }
 }
